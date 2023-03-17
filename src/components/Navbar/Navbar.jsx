@@ -20,7 +20,7 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-login">
         <button>Log In / Registration</button>
-        <div />
+      <div />
         <button>Book Table</button>
       </div>
       <div className="app__navbar-smallscreen">
