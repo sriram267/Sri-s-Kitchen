@@ -1,29 +1,27 @@
 import React from 'react';
-import { GiHamburger, GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu} from "react-icons/md";
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import images from '../../constants/images';
 import './Navbar.css';
-import images from "../../constants/images";
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false)
-  console.log(toggleMenu)
+  const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
     <nav className="app__navbar">
-      <div className='app__navbar-logo'>
-        <img src={images.gericht} alt="logo" ></img>
+      <div className="app__navbar-logo">
+        <img src={images.gericht} alt="app__logo" />
       </div>
-
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#Menu">Menu</a></li>
-        <li className="p__opensans"><a href="#Awards">Awards</a></li>
-        <li className="p__opensans"><a href="#Contact">Contact</a></li>
+        <li className="p__opensans"><a href="#menu">Menu</a></li>
+        <li className="p__opensans"><a href="#awards">Awards</a></li>
+        <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
-
       <div className="app__navbar-login">
-      <button className="p__opensans">Log In / Register</button>
-      <button className="p__opensans">Book Table</button>
+        <button>Log In / Registration</button>
+        <div />
+        <button>Book Table</button>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu 
