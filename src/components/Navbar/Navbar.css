@@ -48,20 +48,21 @@
     transition: .5s ease;
     background-color: black;
     color: aliceblue;
-    border-color: var(--color-golden);
+    border-color: aliceblue;
     border-radius: 20px;
     padding: 4px 7px;
 }
 
 .app__navbar-login button:hover {
     cursor: pointer;
-
+    border-color: var(--color-golden);
+    color: var(--color-golden);
 }
 
 .app__navbar-login div {
     width: 1px;
     height: 30px;
-    background: var(--color-grey);
+    background: var(--color-golden);
 }
 
 .app__navbar-smallscreen {
