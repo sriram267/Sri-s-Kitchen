@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SubHeading, Navbar } from '../../components';
+import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Header.css';
 
