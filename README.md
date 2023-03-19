@@ -1,4 +1,4 @@
-Project Figma file ==> code
+Project : Figma file ==> code
 
 A restaurant website that works on multiple resolution devices (laptop, tablet, mobile devices ). Motivated by JavascriptMaster
 
