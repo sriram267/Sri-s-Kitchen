@@ -1,4 +1,6 @@
-A restaurant website that works on multiple resolution devices (laptop, tablet, mobile devices )
+A restaurant website that works on multiple resolution devices (laptop, tablet, mobile devices ). Motivated by JavascriptMaster
+
+website deployed using netlify : https://sriz-kitchen.netlify.app
 
 link to the Figma file : https://www.figma.com/file/B8yA6lEwomdFMJeI1dRKSW/Modern-UI%2FUX%3A-Gericht?node-id=0%3A1&t=AFYIdP7thedJIfuO-1
 
