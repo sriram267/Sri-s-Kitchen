@@ -1,21 +1,20 @@
 import React from 'react';
-
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Routes, Route } from "react-router-dom";
+import { AboutUs, FindUs, Header, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
 
 const App = () => (
   <div>
     <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />  
+    <Routes>
+      <Route path="/" element={<Header />} />
+      <Route path="/aboutUs" element={<AboutUs />} />
+      <Route path="/specialMenu" element={<SpecialMenu />} />
+      <Route path="/laurels" element={<Laurels />} />
+      <Route path="/findUs" element={<FindUs />} />
+      <Route />
+    </Routes>
   </div>
 );
 
