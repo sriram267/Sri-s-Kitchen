@@ -1,13 +1,11 @@
 import React from 'react';
 import { images, data }from '../../constants';
 import { SubHeading, MenuItem } from "../../components";
-import  Chef  from "../Chef/Chef";
-import  Intro  from "../Intro/Intro";
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (
   <>
-    <div className="app__specialMenu flex__center section__padding">
+    <div className="app__specialMenu flex__center section__padding" id="menu">
       <div className="app__specialMenu-title">
         <SubHeading 
           tite="Menu that fits you palatte"/>
@@ -50,8 +48,6 @@ const SpecialMenu = () => (
         <button className="custom__button">View More</button>
       </div>
     </div>
-    <Chef />
-    <Intro />
   </>
 );
 
