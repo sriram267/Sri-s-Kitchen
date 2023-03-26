@@ -20,9 +20,9 @@ const Navbar = () => {
         <li className="p__opensans"><Link to="/findUs">Contact</Link></li>
       </ul>
       <div className="app__navbar-login">
-        <button>Log In / Registration</button>
+        <button><Link to="/login">Log In / Registration</Link></button>
       <div />
-        <button>Book Table</button> 
+        <button><Link to="/bookTable">Book Table</Link></button> 
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu 
