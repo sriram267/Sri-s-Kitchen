@@ -63,6 +63,19 @@
     }
 }
 
+@media (min-resolution: 120dpi) and (max-resolution: 144dpi){
+    .app__aboutus {
+        width:100%;
+        height: 100vh;
+
+      }
+
+      .app__aboutus-content_knife img {
+        height: 700px;
+
+    }
+}
+
 @media screen and (max-width: 900px) {
     .app__aboutus-content {
         flex-direction: column;
