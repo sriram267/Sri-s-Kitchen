@@ -9,4 +9,4 @@ link to the Figma file : https://www.figma.com/file/B8yA6lEwomdFMJeI1dRKSW/Moder
 Website thubnail : 
 
 
-![Website thumbnail](https://user-images.githubusercontent.com/68237238/226203839-803b2bb8-e03c-4305-b9e8-f312d72f5e4b.png)
+![Screenshot 2023-04-03 014158](https://user-images.githubusercontent.com/68237238/229376737-d53d91fc-6af7-48e4-b05d-d8e90745022c.png)
